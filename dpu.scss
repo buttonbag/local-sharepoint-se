@@ -3708,7 +3708,7 @@ figure > img {
 // gen links
 $excludedClasses: "[type*=button] a, [name]:not([href]), [class*=social], [class*=cta-], [class*=btn], [class*=border], [class*='fa-'], [class*='start-ctas'] a, [class*='card'] h3 a, [class*=social] a, #accordion .panel-title a";
 #s4-bodyContainer #ga-maincontent {
-	a:not(#{$excludedClasses}) {
+	a:not(#{$excludedClasses}), span.code_bubble {
 		text-decoration: underline;
 		text-decoration-style: dotted;
 		text-decoration-thickness: 1px;

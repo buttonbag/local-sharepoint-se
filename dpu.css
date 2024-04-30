@@ -4688,13 +4688,13 @@ figure > img {
 }
 /* end testimonial universal styles  */
 /* underlined external links in body only for accessibility */
-#s4-bodyContainer #ga-maincontent a:not([type*=button] a, [name]:not([href]), [class*=social], [class*=cta-], [class*=btn], [class*=border], [class*=fa-], [class*=start-ctas] a, [class*=card] h3 a, [class*=social] a, #accordion .panel-title a) {
+#s4-bodyContainer #ga-maincontent a:not([type*=button] a, [name]:not([href]), [class*=social], [class*=cta-], [class*=btn], [class*=border], [class*=fa-], [class*=start-ctas] a, [class*=card] h3 a, [class*=social] a, #accordion .panel-title a), #s4-bodyContainer #ga-maincontent span.code_bubble {
   text-decoration: underline;
   text-decoration-style: dotted;
   text-decoration-thickness: 1px;
   text-underline-offset: 0.2em;
 }
-#s4-bodyContainer #ga-maincontent a:not([type*=button] a, [name]:not([href]), [class*=social], [class*=cta-], [class*=btn], [class*=border], [class*=fa-], [class*=start-ctas] a, [class*=card] h3 a, [class*=social] a, #accordion .panel-title a):hover {
+#s4-bodyContainer #ga-maincontent a:not([type*=button] a, [name]:not([href]), [class*=social], [class*=cta-], [class*=btn], [class*=border], [class*=fa-], [class*=start-ctas] a, [class*=card] h3 a, [class*=social] a, #accordion .panel-title a):hover, #s4-bodyContainer #ga-maincontent span.code_bubble:hover {
   text-decoration-style: solid;
 }
 
